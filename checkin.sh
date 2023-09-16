@@ -4,3 +4,4 @@ echo '-----------------status-----------------'
 curl -H "cookie:${COOKIE}" -X GET 'https://glados.rocks/api/user/status' | grep -Eo '"leftDays":"[^"]*"'
 
 
+
